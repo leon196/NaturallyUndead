@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Naturally Undead</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	
+	<script src="libraries/load.js"></script>
+	<script src="libraries/twgl-full.js"></script>
+	<script src="libraries/gl-matrix-min.js"></script>
+	<script src="libraries/blender-html5-animations.js"></script>
+	<script src="libraries/audiostreamsource.min.js"></script>
+	<script src="libraries/jquery-3.1.0.js"></script>
+
+	<script src="scripts/helpers/maths/utils.js"></script>
+	<script src="scripts/helpers/maths/cooldown.js"></script>
+
+	<script src="scripts/helpers/graphics/framebuffer.js"></script>
+	<script src="scripts/helpers/graphics/gui.js"></script>
+
+	<script src="scripts/helpers/geometries/simple.js"></script>
+	<script src="scripts/helpers/geometries/grid.js"></script>
+	<script src="scripts/helpers/geometries/particles.js"></script>
+	<script src="scripts/helpers/geometries/parsePointCloud.js"></script>
+	<script src="scripts/helpers/geometries/parseMesh.js"></script>
+
+	<script src="scripts/helpers/inputs/mouse.js"></script>
+
+	<script src="scripts/helpers/medias/assets.js"></script>
+	<script src="scripts/helpers/medias/video.js"></script>
+	<script src="scripts/helpers/medias/audioAnalyser.js"></script>
+	
+	<script src="scripts/entities/bases/entity.js"></script>
+	<script src="scripts/entities/bases/dummy.js"></script>
+	<script src="scripts/entities/bases/boid.js"></script>
+	<script src="scripts/entities/bases/mesh.js"></script>
+	<script src="scripts/entities/bases/camera.js"></script>
+	<script src="scripts/entities/bases/shader.js"></script>
+	<script src="scripts/entities/bases/pointCloud.js"></script>
+	
+	<script src="scripts/helpers/graphics/text.js"></script>
+	
+	<script src="scripts/entities/elements/bamboo.js"></script>
+	<script src="scripts/entities/elements/character.js"></script>
+	<script src="scripts/entities/elements/butterflies.js"></script>
+	<script src="scripts/entities/elements/bush.js"></script>
+	<script src="scripts/entities/elements/moss.js"></script>
+	<script src="scripts/entities/elements/skull.js"></script>
+	<script src="scripts/entities/elements/opticalflow.js"></script>
+	<script src="scripts/entities/elements/painting.js"></script>
+
+	<script src="scripts/scenes/animations/blender.js"></script>
+	<script src="scripts/scenes/animations/cloudSceneAnimation.js"></script>
+	<script src="scripts/scenes/animations/introSceneAnimation.js"></script>
+	<script src="scripts/scenes/animations/mainSceneAnimation.js"></script>
+
+	<script src="scripts/scenes/scene.js"></script>
+	<script src="scripts/scenes/introScene.js"></script>
+	<script src="scripts/scenes/cloudScene.js"></script>
+	<script src="scripts/scenes/testScene.js"></script>
+	<script src="scripts/scenes/loadingScene.js"></script>
+	<script src="scripts/scenes/mainScene.js"></script>
+
+	<script src="scripts/engine.js"></script>
+	<script src="scripts/main.js"></script>
+
+	<!-- <script data-main="scripts/main" src="libraries/require.js"></script> -->
+</head>
+<body>
+	<canvas id="view"></canvas>
+	<audio id="music">
+  <source src="assets/music.wav" type="audio/wav">
+  </audio>
+</body>
+</html>
