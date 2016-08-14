@@ -3,7 +3,7 @@
 First PC Demo made with love for [Evoke 2016](https://www.evoke.eu/2016/).  
 Shader experiments with point clouds, boids, curves and particles.  
 WebGL engine made with [TWGL](https://twgljs.org/).  
-Visual by Leon Denise (ponk)  
+Visual by [Leon Denise](https://leon196.github.io) (ponk)  
 Music by Eric Wager (dok)  
 
 **Warning : the source code is a complete mess.**  
@@ -36,7 +36,7 @@ The shader is calculating distance from a target to set leaves size ([moss.vert]
 ## Boids
 <img src="docs/114.png" height="300">  
 
-The good old boids : [bois.js](scripts/entities/base/boid.js),  [butterflies.js](scripts/entities/elements/butterflies.js) and [butterfly.vert](assets/shaders/particles/butterfly.vert).  
+The good old boids : [bois.js](scripts/entities/bases/boid.js),  [butterflies.js](scripts/entities/elements/butterflies.js) and [butterfly.vert](assets/shaders/particles/butterfly.vert).  
 
 ## Leaves effect
 <img src="docs/27d.gif" height="300">
