@@ -85,10 +85,10 @@ function CoolText (message, start, delay, colors)
 			u_alpha: 1,
 		}
 	);
-	this.text = text.makeText(message, "monospace", 16, [0.0075, 0.02], colors);
+	this.text = text.makeText(message, "monospace", 32, [0.0075, 0.02], colors);
 	this.shader.uniforms.u_texture = this.text.texture;
 	// this.scale = this.text.scale;
-	this.scale = [10, 10, 10];
+	this.scale = [6, 6, 6];
 
 	this.camera = {target:[0,0,0], position:[0,0,0], viewProjection:m4.identity()};
 

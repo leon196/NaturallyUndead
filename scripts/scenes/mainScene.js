@@ -101,7 +101,7 @@ function MainScene ()
 		// this.textTest = new CoolText("Text", 3 * 60 + 10, 1000);
 		// this.textArray.push(this.textTest);
 
-		this.time = 100;//3 * 60 + 10;
+		this.time = 0;//3 * 60 + 10;
 		// console.log(music.currentTime);
 		// music.currentTime = 40;
 		// console.log(music.currentTime);
